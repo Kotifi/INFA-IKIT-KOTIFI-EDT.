@@ -15,7 +15,3 @@ class Model:
 
     def remove(self, id):
         self.files.pop(id)
-    
-    def select_all(self):
-        return self.files
-            

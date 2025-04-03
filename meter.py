@@ -3,7 +3,7 @@ import enum
 
 class Meter:
 
-    PARAMETERS = {"date": str, 'value': int}
+
     
     def __init__(self, date, val):
         self.date = date
