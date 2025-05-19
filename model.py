@@ -14,4 +14,12 @@ class Model:
         return self.ID-1
 
     def remove(self, id):
+<<<<<<< HEAD
         self.files.pop(id)
+=======
+        self.files.pop(id)
+    
+    def select_all(self):
+        return self.files
+            
+>>>>>>> branch1
